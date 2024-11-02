@@ -43,7 +43,7 @@
             </div>
             <button type="button" class="mobile-menu-btn js-open-menu">
                 <svg class="mobile-menu-icon" width="24" height="16">
-                    <use href="./images/sprite-svg/sprite.svg#icon-menu-hamburger"></use>
+                    <use href="./images/sprite.svg#icon-menu-hamburger"></use>
                 </svg>
             </button>
         </div>
@@ -52,7 +52,7 @@
             <div class="container mobile-menu-container">
                 <button class="mobile-menu-close-bnt js-close-menu">
                     <svg class="menu-modal-button-icon" width="40" height="40">
-                        <use href="./images/sprite-svg/sprite.svg#icon-close"></use>
+                        <use href="./images/sprite.svg#icon-close"></use>
                     </svg>
                 </button>
                 <ul class="mobile-header-menu list">
@@ -227,6 +227,66 @@
                 </ul>
             </div>
         </section>
+        <div class="last-sections">
+            <div class="last-container">
+                <!-- Online-booking -->
+                <section class="booking last-sections-side section">
+                    <div class="online-booking-side container">
+                        <h2 class="section-title section-title-theme-dark">Online-booking</h2>
+                        <form name="online-booking" autocomplete="on" novalidate>
+                            <div class="booking-row">
+                                <label class="booking-label">
+                                    <input class="booking-input" type="text" name="name" placeholder="Name*" />
+                                </label>
+                                <label class="booking-label">
+                                    <p class="booking-text"></p>
+                                    <input class="booking-input" type="tel" name="phone" placeholder="Phone*" />
+                                </label>
+                            </div>
+                            <label class="booking-label">
+                                <textarea class="booking-input booking-comment" name="message" placeholder="Message"></textarea>
+                            </label>
+                            <button class="modal-btn modal-btn-theme-dark" type="submit">send</button>
+                        </form>
+                    </div>
+                </section>
+                <!-- Contacts -->
+                <section class="contacts last-sections-side section" id="contacts">
+                    <div class="contacts-side container">
+                        <h2 class="section-title section-title-theme-dark">Contacts</h2>
+                        <adress>
+                            <ul class="contact-list list">
+                                <li class="adress">
+                                    <a class="link contacts-link adress" href="https://goo.gl/maps/RsUKrL9NW7S4d8BLA"
+                                        target="_blank" rel="noopener noreferrer nofollow">
+                                        <svg class="adress-icon" width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-map-pin"></use>
+                                        </svg>
+                                        st. Vasilkivska, 7A <br />
+                                        Kyiv, 08132</a>
+                                </li>
+                                <li class="phone">
+                                    <a class="link contacts-link phone" href="tel:+380441111111"><svg class="adress-icon"
+                                            width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        +38 044 111 11 11</a>
+                                </li>
+                                <li>
+                                    <a class="contacts-link" href="mailto:barbershop@email.com"><svg class="adress-icon"
+                                            width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-mail"></use>
+                                        </svg>
+                                        barbershop@email.com</a>
+                                </li>
+                            </ul>
+                        </adress>
+                        <h3 class="contacts-text">Working hours</h3>
+                        <p class="contacts-time">Every day from 9:00 to 22:00</p>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
     <!-- footer -->
     <footer class="footer">
