@@ -1,0 +1,39 @@
+/* ========== Photo gallery ==========*/
+.gallery-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.gallery-list-item {
+  flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.gallery-suptitle {
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gallery-list-item {
+    flex-basis: calc((100% - 1 * 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .gallery-list-item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+  }
+}
+
+/* ========== Photo gallery ==========*/

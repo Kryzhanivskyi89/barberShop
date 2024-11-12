@@ -1,0 +1,81 @@
+/* ========== Our barbers (Barbers) ===========*/
+.barbers {
+    background-color: #f7f7f7;
+}
+
+.barbers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.barber-title {
+    margin-bottom: 44px;
+}
+
+.barber-name-title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color-theme-light);
+}
+
+.barber-position {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.barber-name-card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.social-list-icon {
+    fill: var(--primary-text-color-theme-light);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {
+    .barbers-item {
+        flex-basis: calc((100% - 2 * 30px) / 3);
+    }
+
+    .barbers-list {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* ========== /Our barbers (Barbers) ===========*/
